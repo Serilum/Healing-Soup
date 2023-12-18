@@ -28,8 +28,7 @@ public class ModNeoForge {
 	public static final DeferredItem<Item> CHOCOLATE_MILK_ITEM = ITEMS.register("chocolate_milk", () -> new BowlFoodItem((new Item.Properties()).stacksTo(1).food(SoupFoods.CHOCOLATE_MILK)));
 
 	
-	public ModNeoForge() {
-		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+	public ModNeoForge(IEventBus modEventBus) {
 		modEventBus.addListener(this::loadComplete);
 
 		ITEMS.register(modEventBus);
