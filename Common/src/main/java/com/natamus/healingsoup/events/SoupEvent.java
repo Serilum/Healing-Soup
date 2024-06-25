@@ -28,7 +28,7 @@ public class SoupEvent {
 			ItemStack bowl = new ItemStack(Items.BOWL, 1);
 			
 			FoodData stats = player.getFoodData();
-			if (player.getHealth() == 20) {
+			if (player.getHealth() == player.getMaxHealth()) {
 				if (stats.getFoodLevel() == 20) {
 					return InteractionResultHolder.pass(handstack);
 				}	
@@ -40,7 +40,7 @@ public class SoupEvent {
 			else {
 				int health = (int) (player.getHealth() + ConfigHandler.soupHalfHeartHealAmount);
 
-				player.setHealth(Math.min(health, 20));
+				player.setHealth(Math.min(health, player.getMaxHealth()));
 			}
 			
 			player.setItemInHand(hand, bowl);
