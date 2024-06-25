@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="healingsoup"
-version="4.8"
+version="4.9"
 displayName="Healing Soup"
 displayURL="https://serilum.com/mod/healing-soup"
 authors="Rick South"
