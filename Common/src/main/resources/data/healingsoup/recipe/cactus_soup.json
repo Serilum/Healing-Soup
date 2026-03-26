@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:cactus",
+    "minecraft:cactus"
+  ],
+  "result": {
+    "id": "healingsoup:cactus_soup"
+  }
+}
