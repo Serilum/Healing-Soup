@@ -1,7 +1,7 @@
-package com.natamus.healingsoup.forge.config;
+package com.serilum.healingsoup.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.healingsoup.util.Reference;
+import com.serilum.healingsoup.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

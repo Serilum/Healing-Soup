@@ -1,10 +1,10 @@
-package com.natamus.healingsoup;
+package com.serilum.healingsoup;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.healingsoup.forge.config.IntegrateForgeConfig;
-import com.natamus.healingsoup.forge.events.ForgeSoupEvent;
-import com.natamus.healingsoup.util.Reference;
+import com.serilum.healingsoup.forge.config.IntegrateForgeConfig;
+import com.serilum.healingsoup.forge.events.ForgeSoupEvent;
+import com.serilum.healingsoup.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -33,7 +33,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeSoupEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeSoupEvent.class);
 
 		ModCommon.setAssets();
 	}

@@ -1,9 +1,9 @@
-package com.natamus.healingsoup;
+package com.serilum.healingsoup;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.healingsoup.events.SoupEvent;
-import com.natamus.healingsoup.util.Reference;
+import com.serilum.healingsoup.events.SoupEvent;
+import com.serilum.healingsoup.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseItemCallback;
 

@@ -1,7 +1,7 @@
-package com.natamus.healingsoup.events;
+package com.serilum.healingsoup.events;
 
-import com.natamus.healingsoup.config.ConfigHandler;
-import com.natamus.healingsoup.items.SoupItems;
+import com.serilum.healingsoup.config.ConfigHandler;
+import com.serilum.healingsoup.items.SoupItems;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;

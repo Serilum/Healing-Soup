@@ -1,7 +1,7 @@
-package com.natamus.healingsoup.fabric.config;
+package com.serilum.healingsoup.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.healingsoup.util.Reference;
+import com.serilum.healingsoup.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

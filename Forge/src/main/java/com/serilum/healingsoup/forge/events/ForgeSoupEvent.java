@@ -1,6 +1,6 @@
-package com.natamus.healingsoup.forge.events;
+package com.serilum.healingsoup.forge.events;
 
-import com.natamus.healingsoup.events.SoupEvent;
+import com.serilum.healingsoup.events.SoupEvent;
 import net.minecraft.world.InteractionResult;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

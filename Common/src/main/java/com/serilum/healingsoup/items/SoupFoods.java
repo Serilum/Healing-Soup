@@ -1,4 +1,4 @@
-package com.natamus.healingsoup.items;
+package com.serilum.healingsoup.items;
 
 import net.minecraft.world.food.FoodProperties;
 

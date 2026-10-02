@@ -1,7 +1,7 @@
-package com.natamus.healingsoup.config;
+package com.serilum.healingsoup.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.healingsoup.util.Reference;
+import com.serilum.healingsoup.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

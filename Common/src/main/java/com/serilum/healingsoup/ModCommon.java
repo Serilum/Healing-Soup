@@ -1,11 +1,11 @@
-package com.natamus.healingsoup;
+package com.serilum.healingsoup;
 
 import com.natamus.collective.functions.CreativeModeTabFunctions;
 import com.natamus.collective.services.Services;
-import com.natamus.healingsoup.config.ConfigHandler;
-import com.natamus.healingsoup.items.SoupFoods;
-import com.natamus.healingsoup.items.SoupItems;
-import com.natamus.healingsoup.util.Reference;
+import com.serilum.healingsoup.config.ConfigHandler;
+import com.serilum.healingsoup.items.SoupFoods;
+import com.serilum.healingsoup.items.SoupItems;
+import com.serilum.healingsoup.util.Reference;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 
